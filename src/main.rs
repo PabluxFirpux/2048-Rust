@@ -2,5 +2,6 @@ mod board;
 mod cell;
 
 fn main() {
-    println!("Hello, world!");
+    let board = board::board::Board::new();
+    board.print();
 }

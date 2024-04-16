@@ -22,7 +22,7 @@ impl Cell {
     }
 
     fn calculate_value(index: u32) -> u32 {
-        2.pow(index)
+        2_i32.pow(index) as u32
     }
 
     pub fn update(&mut self) {
